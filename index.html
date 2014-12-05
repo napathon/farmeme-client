@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My Parse App</title>
+  <title>Farmeme Submission</title>
   <meta name="description" content="My Parse App">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/reset.css">
@@ -11,15 +11,21 @@
 
 <body>
 
-  <h1>Submit your meme here!</h1>
-  <p>
-    <strong>Make sure the url starts with an 'http://'</strong>
-  </p>
-  <form id='meme-submission'>
-    <input type='text' name='url' placeholder='http://...'/>
-    <button type='submit'>Submit</button>
-  </form>
-
+  <div class='logo-container'>
+    <img src='images/logo.svg' alt='Farmeme Logo' title='Farmeme' />
+  </div>
+  <h1 class='center-text'>Submit your meme here!</h1>
+  <main>
+    <p class='center-text'>
+      <strong>Make sure the url starts with an 'http://'</strong>
+    </p>
+    <form id='meme-submission'>
+      <div class='input-container'>
+        <input type='text' name='url' placeholder='http://...'/>
+      </div>
+      <button type='submit'>Submit</button>
+    </form>
+  </main>
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
