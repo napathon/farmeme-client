@@ -43,7 +43,7 @@ input[type=text]:focus {
   outline: none;
 }
 
-button[type=submit] {
+button {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -59,4 +59,30 @@ button[type=submit] {
 button[type=submit]:focus,
 button[type=submit]:hover {
   background-color: #d3d3d3;
+}
+
+
+/* Admin Styles */
+
+#url-listing {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+ul#url-listing li {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+ul#url-listing li img {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+ul#url-listing li button {
+  background-color: #FF4136;
 }
