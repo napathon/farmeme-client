@@ -22,7 +22,8 @@ form.submit(function(e) {
 
     url.save(null, {
       success: function(url) {
-        alert('yay!')
+        alert('Successfully Submitted');
+        window.location.reload();
       },
       error: function(url, err) {
         alert('oh no')
