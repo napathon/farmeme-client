@@ -3,8 +3,9 @@ var query = new Parse.Query(Url);
 query.find({
   success: function(results) {
     _.each(results, function(value, key) {
+      var url = value.attributes.url;
       $('#url-listing').append(
-        '<li>' + value.attributes.url + '</li>'
+        '<li>' + url + '<img src="' + url + '"/>' + '</li>'
       )
     })
   },
