@@ -86,3 +86,31 @@ ul#url-listing li img {
 ul#url-listing li button {
   background-color: #FF4136;
 }
+
+
+/* error */
+
+label.error {
+  text-align: center;
+  color: #FF4136;
+  display: block;
+  padding-top: 10px;
+}
+
+input.error {
+  border-color: #FF4136;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 120px auto 0;
+  max-width: 300px;
+}
+
+#fah {
+  max-height: 70px;
+}
